@@ -6,5 +6,8 @@ public class test {
         System.out.println("Test Docker");
         ArrayList<Integer>  list = new ArrayList<>(List.of(1,2,3,4));
         list.stream().forEach(System.out::println);
+        for(int i=0; i<5; i++){
+            System.out.print(i);
+        }
     }
 }
